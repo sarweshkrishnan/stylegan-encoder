@@ -10,8 +10,6 @@ import config
 from encoder.generator_model import Generator
 from encoder.perceptual_model import PerceptualModel
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
-
 URL_FFHQ = 'https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ'  # karras2019stylegan-ffhq-1024x1024.pkl
 
 def save_image(img_array, img_name):
